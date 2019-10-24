@@ -35,7 +35,7 @@ int main (int argc, char ** argv) {
   double x , y;
   clock_t start_time, end_time; 
   double total_time;
-  start_time = clock();
+  start_time = clock();   // timers starts in here
   
   srand48 ( seed ) ; // seed the number generator
 

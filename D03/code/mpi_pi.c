@@ -11,7 +11,7 @@
 #include <stdio.h>
 #include <math.h>
 #include <string.h>
-#include <mpi.h>
+#include <mpi.h>   //we use mpi, we need to include mpi header file
 #define USE MPI
 #define SEED 35791246
 
@@ -33,13 +33,13 @@ int main ( int argc , char *argv[ ] )
   int master = 0;
   int tag = 123;
 
-  MPI_Init(&argc,&argv);
+  MPI_Init(&argc,&argv); // start mpi 
   MPI_Comm_size(MPI_COMM_WORLD,&numprocs);
   MPI_Comm_rank(MPI_COMM_WORLD,&myid);
 
   if ( argc <=1) {
     fprintf (stderr , " Usage : mpi -np n %s number_of_iterations \n", argv[0] ) ;
-    MPI_Finalize() ;
+    MPI_Finalize() ; // finish mpi
     exit(-1) ;
   }
 
@@ -85,5 +85,5 @@ int main ( int argc , char *argv[ ] )
   }
 
   MPI_Finalize() ; // let MPI finish up /
-
+ 
 }
