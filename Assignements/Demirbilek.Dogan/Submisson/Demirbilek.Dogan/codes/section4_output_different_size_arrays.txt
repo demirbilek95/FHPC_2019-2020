@@ -1,0 +1,72 @@
+ # walltime on processor  2 : 0.0006601810455322266
+
+ # walltime on processor  3 : 0.0006210803985595703
+
+ # walltime on processor  1 : 0.0006868839263916016
+
+ # walltime on master processor : 0.00109100341796875
+
+Total of N 1000 : 500500
+0.79user 0.70system 0:00.50elapsed 299%CPU (0avgtext+0avgdata 137744maxresident)k
+0inputs+0outputs (0major+37828minor)pagefaults 0swaps
+
+ # walltime on processor  1 : 0.000720977783203125
+
+ # walltime on processor  2 : 0.0007109642028808594
+
+ # walltime on processor  3 : 0.0007798671722412109
+
+ # walltime on master processor : 0.0009930133819580078
+
+Total of N 10000 : 50005000
+0.77user 0.70system 0:00.48elapsed 305%CPU (0avgtext+0avgdata 137840maxresident)k
+0inputs+0outputs (0major+37859minor)pagefaults 0swaps
+
+ # walltime on processor  1 : 0.0008080005645751953
+
+ # walltime on processor  2 : 0.000782012939453125
+
+ # walltime on processor  3 : 0.000843048095703125
+
+ # walltime on master processor : 0.001068115234375
+
+Total of N 99999 : 4999950000
+0.77user 0.75system 0:00.51elapsed 299%CPU (0avgtext+0avgdata 138528maxresident)k
+0inputs+0outputs (0major+38016minor)pagefaults 0swaps
+
+ # walltime on processor  1 : 0.0022079944610595703
+
+ # walltime on processor  3 : 0.002184152603149414
+
+ # walltime on processor  2 : 0.0022430419921875
+
+ # walltime on master processor : 0.0023789405822753906
+
+Total of N 1000000 : 500000500000
+0.80user 0.70system 0:00.52elapsed 288%CPU (0avgtext+0avgdata 145056maxresident)k
+0inputs+0outputs (0major+39789minor)pagefaults 0swaps
+
+ # walltime on processor  1 : 0.010040998458862305
+
+ # walltime on processor  2 : 0.010387182235717773
+
+ # walltime on processor  3 : 0.010727882385253906
+
+ # walltime on master processor : 0.010732173919677734
+
+Total of N 9999999 : 49999995000000
+0.81user 0.75system 0:00.51elapsed 303%CPU (0avgtext+0avgdata 215360maxresident)k
+0inputs+0outputs (0major+39474minor)pagefaults 0swaps
+
+ # walltime on processor  2 : 0.010640859603881836
+
+ # walltime on processor  1 : 0.011188030242919922
+
+ # walltime on processor  3 : 0.011156082153320312
+
+ # walltime on master processor : 0.011413812637329102
+
+Total of N 10000000 : 50000005000000
+0.78user 0.74system 0:00.50elapsed 304%CPU (0avgtext+0avgdata 215376maxresident)k
+0inputs+0outputs (0major+41031minor)pagefaults 0swaps
+

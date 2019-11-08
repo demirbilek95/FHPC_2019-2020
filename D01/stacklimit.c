@@ -82,7 +82,7 @@ void func2(void)
  * In fact, it will allocate a local array of 8192KB
  *
  * try to set a different stack limit through
- *   ulimit -s <limit>
+ *   ulimit -s <limit>    --> ulimit -s 16384 eliminate the error of this second function
  * or to decrease the dimension of array 
  * (decreasing STACKSMASH) and magically the 
  * segfault will disappear

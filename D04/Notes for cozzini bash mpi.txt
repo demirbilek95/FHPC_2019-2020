@@ -1,0 +1,20 @@
+mpirun -np 4 ./mpi_pi.x 100000 2>/dev/null | grep walltime | sort -n -7
+
+2>dev/null directs the output here
+
+grep --> google it
+
+sort -n (sort it numeric way) -k7 (please sort it seventh column for mpi_pi.x wall time)
+
+
+GPU --> GRaphical Process Unit
+
+GPGPU --> General Purporse Graphical Process Unit
+
+
+
+
+
+
+
+

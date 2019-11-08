@@ -115,7 +115,7 @@ void main(int argc, char **argv)
 	     "arrayAp begins at %p, size of STRUCT_Ap is %zd, memory displacement among array elements is %zd\n",
 	     arrayAp, sizeof(STRUCT_Ap), (void*)&arrayAp[1] - (void*)&arrayAp[0]);
       printf("\t%18s%3zd\n\t%18s%3zd\n\t%18s%3zd\n\t%18s%3zd\n\n",
-	     "char_field at ",   (void*)&arrayAp[0].char_field   - (void*)&arrayAp[0],
+	     "char_field at ",   (void*)&arrayAp[0].char_field   - (void*)&arrayAp[0],  //void* is used for calculate pointer operation, otherwise first one point integer, second one struct
 	     "double_field at ", (void*)&arrayAp[0].double_field - (void*)&arrayAp[0],
 	     "int_field at ",    (void*)&arrayAp[0].int_field    - (void*)&arrayAp[0],
 	     "char_field2 at ",  (void*)&arrayAp[0].char_field2  - (void*)&arrayAp[0]);

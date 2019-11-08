@@ -1,0 +1,126 @@
+ # of trials = 10000000000 , estimate of pi is 3.141578522
+
+ # walltime on master processor : 198.19462585
+
+ # of trials = 10000000000 , estimate of pi is 3.141587904
+
+ # walltime on master processor : 102.39479208
+
+ # walltime on processor 1 : 102.39478397
+
+ # walltime on processor 2 : 51.26050711
+
+ # walltime on processor 3 : 51.26042104
+
+ # of trials = 10000000000 , estimate of pi is 3.141577497
+
+ # walltime on master processor : 51.26037097
+
+ # walltime on processor 1 : 51.26031089
+
+ # walltime on processor 1 : 27.20156288
+
+ # walltime on processor 2 : 27.20429111
+
+ # walltime on processor 3 : 27.20441794
+
+ # walltime on processor 4 : 27.98629713
+
+ # walltime on processor 5 : 27.98643208
+
+ # walltime on processor 6 : 27.98616099
+
+ # walltime on processor 7 : 27.98658204
+
+ # of trials = 10000000000 , estimate of pi is 3.141595503
+
+ # walltime on master processor : 27.98644686
+
+ # walltime on processor 1 : 14.41630101
+
+ # walltime on processor 2 : 14.41413498
+
+ # walltime on processor 3 : 15.09243393
+
+ # walltime on processor 4 : 15.09405589
+
+ # walltime on processor 5 : 15.09206581
+
+ # walltime on processor 6 : 15.09226203
+
+ # walltime on processor 7 : 15.09332895
+
+ # walltime on processor 8 : 15.09450412
+
+
+ # walltime on processor 9 : 15.09318805
+
+ # walltime on processor 10 : 15.09220505
+
+ # walltime on processor 11 : 15.09264398
+
+ # walltime on processor 12 : 15.09218502
+
+ # walltime on processor 13 : 15.09214211
+
+ # walltime on processor 14 : 15.09258008
+
+ # walltime on processor 15 : 15.09216094
+
+ # of trials = 10000000000 , estimate of pi is 3.141580484
+
+ # walltime on master processor : 15.09360099
+cn07-26.21102ipath_userinit: Mismatched user minor version (12) and driver minor version (13) while context sharing. Ensure that driver and library are from the same release.
+cn07-26.21104ipath_userinit: Mismatched user minor version (12) and driver minor version (13) while context sharing. Ensure that driver and library are from the same release.
+cn07-26.21105ipath_userinit: Mismatched user minor version (12) and driver minor version (13) while context sharing. Ensure that driver and library are from the same release.
+cn07-26.21103ipath_userinit: Mismatched user minor version (12) and driver minor version (13) while context sharing. Ensure that driver and library are from the same release.
+cn07-26.21128ipath_userinit: Mismatched user minor version (12) and driver minor version (13) while context sharing. Ensure that driver and library are from the same release.
+cn07-26.21132ipath_userinit: Mismatched user minor version (12) and driver minor version (13) while context sharing. Ensure that driver and library are from the same release.
+cn07-26.21130ipath_userinit: Mismatched user minor version (12) and driver minor version (13) while context sharing. Ensure that driver and library are from the same release.
+cn07-26.21134ipath_userinit: Mismatched user minor version (12) and driver minor version (13) while context sharing. Ensure that driver and library are from the same release.
+
+ # walltime on processor 1 : 11.51574707
+
+ # walltime on processor 3 : 11.51577902
+
+ # walltime on processor 2 : 11.51536393
+
+ # walltime on processor 4 : 11.86256886
+
+ # walltime on processor 5 : 11.86272502
+
+ # walltime on processor 6 : 11.86144114
+
+ # walltime on processor 7 : 11.86163592
+
+ # walltime on processor 8 : 11.86220217
+
+ # walltime on processor 9 : 11.86222911
+
+ # walltime on processor 10 : 11.86147285
+
+ # walltime on processor 11 : 11.86221313
+
+ # walltime on processor 12 : 11.86151910
+
+ # walltime on processor 13 : 11.86219501
+
+ # of trials = 10000000000 , estimate of pi is 3.141576841
+
+# walltime on master processor : 11.86186099
+
+ # walltime on processor 14 : 11.86197591
+
+ # walltime on processor 15 : 11.86166501
+
+ # walltime on processor 19 : 11.86158895
+
+ # walltime on processor 18 : 11.86160493
+
+ # walltime on processor 16 : 11.86160994
+
+ # walltime on processor 17 : 11.86160398
+
+                                                                                                                                                                                           108,1         79%
+
+
