@@ -12,6 +12,31 @@ GPU --> GRaphical Process Unit
 GPGPU --> General Purporse Graphical Process Unit
 
 
+grep
+sort
+wc
+uniq
+
+ulimit -a -- give you the limit
+
+top --> check status of your machineirun 
+
+In Ullyse
+
+mpirun /bin/hostname | uniq
+
+mpirun /bin/hostname | wc
+
+mp --hostfile host /bin/hostname
+
+	cat host --> files to be modified
+		b13 slots = 50
+
+
+convıncere
+convencer
+
+
 
 
 
