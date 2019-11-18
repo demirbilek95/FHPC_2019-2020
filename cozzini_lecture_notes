@@ -1,0 +1,9 @@
+Hyper Threading --> because of overlaping squares you won't get %100 speed.
+It is like if you have 8 cores you can use it as almost 16 cores with hyperthreading
+Generally bad for hpc because --> they are doing same thing with the different data. Overhead causing the disadvantage.
+
+Opteron 6xxx AMD CPU
+4 NUMA zone and 2 socket (every socket has two groups of cores and every group of cores has their own zones)
+
+Intel uses QPI --> Quick PAth Interconntect
+
