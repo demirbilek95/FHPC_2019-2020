@@ -7,3 +7,17 @@ Opteron 6xxx AMD CPU
 
 Intel uses QPI --> Quick PAth Interconntect
 
+
+-------------------------------------------------------------------------------------------------------------------------
+
+18.11.2019
+
+Challenges or multicores (memory)
+mpi processes can be changed (for cores) by linux os.
+Tools --> Numactl, 
+ccNuma --> cache coheriance ...
+Stream benchmark (add ,scalar etc)
+contention, compressure (slow donw calculation) -- reason for reducing stream results in ullyse
+export OMP_ bla bla THREADS
+BenchamrkingHPC-nodes
+
