@@ -110,7 +110,7 @@ int main( int argc, char **argv )
 #else
 
   
-#pragma omp parallel for reduction(+:S)
+#pragma omp parallel for reduction(+:S) // this part should be specified, otherwise it does not scale.
     for ( int ii = 0; ii < N; ii++ )
       S += array[ii];
 
