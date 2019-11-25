@@ -35,37 +35,57 @@
 #include <omp.h>
 
 
-//
-// HINT: play a bit with this code and the
-//       environmental variables:
-//       OMP_NUM_THREADS=n_0, n_1, n_2, ...
-//       OMP_NESTED=<true|false>
-//       OMP_MAX_ACTIVE_LEVELS=n
-//
-
-
-int function( int, int );
-
 int main( int argc, char **argv )
 {
-#pragma omp parallel
-  {
-    int myid = omp_get_thread_num();
-    function( myid, 0 );
-  }
 
-  return 0;
-}
-
-
-int function( int id, int nested )
-{
-
-  printf("\tthread %2d in function\n", id );
+  int nthreads;
   
-#pragma omp parallel num_threads(2)
-  {
-    int myid = omp_get_thread_num();
-    printf("\t\tthread %2d,%2d in function\n", id, myid );
+#if defined(_OPENMP)
+
+  int order = 0;
+  
+#pragma omp parallel               // this creates a parallel region
+                                   // that is encompassed by the
+                                   // opening and closing { }
+                                   //
+                                   // you can modify the number of
+                                   // spawned threads through the
+                                   //   OMP_THREAD_NUM
+                                   // environmental variable
+  
+  {   
+    
+    int my_thread_id = omp_get_thread_num();
+    #pragma omp master
+    nthreads = omp_get_num_threads();
+
+                                   // now we impose an ordered output
+                                   // although not ina very efficient way
+
+        	                   // the "critical" directive identifies a
+        	                   // section that must be executed by a
+        	                   // single thread at a time.
+	                           // Here, un unspecified number of threads
+	                           // will print the message.
+	                           // That is just due to this particular
+	                           // case: in fact, ALL the threads will
+	                           // execute the if test. However, which are
+	                           // those that succeed, print and modify the
+	                           // "order" value depends on which have been
+	                           // the previous ones, and on the relative delay.
+#pragma omp critical                   
+    if ( order == my_thread_id )
+      {
+	printf( "\tgreetings from thread num %d\n", my_thread_id );	
+	order++;		   
+      }
   }
+#else
+  
+  nthreads = 1;
+#endif
+  
+  printf(" %d thread%s greeted you from the %sparallel region\n", nthreads, (nthreads==1)?" has":"s have", (nthreads==1)?"(non)":"" );
+  
+  return 0;
 }
