@@ -1,4 +1,3 @@
-
 /* ────────────────────────────────────────────────────────────────────────── *
  │                                                                            │
  │ This file is part of the exercises for the Lectures on                     │
@@ -111,3 +110,4 @@ int main ( int argc, char **argv )
   printf( "done\n" );
   return 0;
 }
+
