@@ -1,0 +1,126 @@
+ # walltime on master processor : 0.06008601188659668
+
+Total 5000000050000000
+0.28user 0.28system 0:00.65elapsed 86%CPU (0avgtext+0avgdata 3269744maxresident)k
+0inputs+0outputs (0major+11016minor)pagefaults 0swaps
+
+ # walltime on processor 1 : 0.036242008209228516
+
+ # walltime on master processor : 0.04027104377746582
+
+Total 5000000050000000
+0.46user 0.41system 0:00.53elapsed 164%CPU (0avgtext+0avgdata 1699776maxresident)k
+0inputs+0outputs (0major+20294minor)pagefaults 0swaps
+
+ # walltime on processor 3 : 0.030339956283569336
+
+ # walltime on processor 2 : 0.03500008583068848
+
+ # walltime on master processor : 0.04016590118408203
+
+Total 5000000050000000
+
+ # walltime on processor 1 : 0.03618502616882324
+0.89user 0.66system 0:00.49elapsed 313%CPU (0avgtext+0avgdata 918640maxresident)k
+0inputs+0outputs (0major+39806minor)pagefaults 0swaps
+
+ # walltime on processor 3 : 0.02825307846069336
+
+ # walltime on processor 1 : 0.02666783332824707
+
+ # walltime on processor 2 : 0.02418804168701172
+
+ # walltime on processor 5 : 0.023194074630737305
+
+ # walltime on processor 7 : 0.02430891990661621
+
+ # walltime on processor 6 : 0.030303001403808594
+
+ # walltime on master processor : 0.030679941177368164
+
+Total 5000000050000000
+
+ # walltime on processor 4 : 0.034323930740356445
+1.72user 1.84system 0:00.58elapsed 607%CPU (0avgtext+0avgdata 528192maxresident)k
+0inputs+0outputs (0major+79418minor)pagefaults 0swaps
+
+ # walltime on processor 11 : 0.007648944854736328
+
+ # walltime on processor 1 : 0.009482145309448242
+
+ # walltime on processor 15 : 0.009701967239379883
+
+ # walltime on processor 13 : 0.012713909149169922
+
+ # walltime on processor 7 : 0.0189821720123291
+
+ # walltime on processor 6 : 0.025460004806518555
+
+ # walltime on processor 3 : 0.019363880157470703
+
+ # walltime on processor 2 : 0.03256511688232422
+
+ # walltime on processor 9 : 0.019067049026489258
+
+ # walltime on processor 5 : 0.014642953872680664
+
+ # walltime on processor 4 : 0.021177053451538086
+
+ # walltime on processor 14 : 0.015027046203613281
+
+ # walltime on processor 12 : 0.025201797485351562
+
+ # walltime on processor 10 : 0.011298894882202148
+
+ # walltime on processor 8 : 0.023643016815185547
+
+ # walltime on master processor : 0.02433609962463379
+
+Total 5000000050000000
+3.61user 3.96system 0:00.78elapsed 970%CPU (0avgtext+0avgdata 333152maxresident)k
+0inputs+0outputs (0major+157967minor)pagefaults 0swaps
+
+ # walltime on processor 19 : 0.01238107681274414
+
+ # walltime on processor 11 : 0.011512994766235352
+
+ # walltime on processor 18 : 0.01191091537475586
+
+ # walltime on processor 17 : 0.008934974670410156
+
+ # walltime on processor 16 : 0.014539957046508789
+
+ # walltime on processor 6 : 0.010355949401855469
+
+ # walltime on processor 7 : 0.009936094284057617
+
+ # walltime on processor 9 : 0.01798701286315918
+
+ # walltime on processor 5 : 0.017491817474365234
+
+ # walltime on processor 4 : 0.022259950637817383
+
+ # walltime on processor 1 : 0.01690196990966797
+
+ # walltime on processor 13 : 0.016852855682373047
+
+ # walltime on processor 3 : 0.016505956649780273
+
+ # walltime on processor 2 : 0.01839280128479004
+
+ # walltime on processor 15 : 0.015880823135375977
+
+ # walltime on processor 14 : 0.007950782775878906
+
+ # walltime on processor 12 : 0.04058504104614258
+
+ # walltime on processor 10 : 0.017781972885131836
+
+ # walltime on processor 8 : 0.04366707801818848
+
+ # walltime on master processor : 0.039919137954711914
+
+Total 5000000050000000
+4.74user 6.10system 0:00.94elapsed 1152%CPU (0avgtext+0avgdata 294272maxresident)k
+0inputs+0outputs (0major+198043minor)pagefaults 0swaps
+

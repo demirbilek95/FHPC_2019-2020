@@ -1,0 +1,146 @@
+ # of trials = 100000000 , estimate of pi is 3.141391040 
+
+ # walltime on master processor : 1.98622179 
+
+real	0m3.503s
+user	0m3.133s
+sys	0m0.061s
+
+ # of trials = 100000000 , estimate of pi is 3.141387800 
+
+ # walltime on master processor : 1.02191520 
+
+ # walltime on processor 1 : 1.02190685 
+
+real	0m2.539s
+user	0m4.322s
+sys	0m0.105s
+
+ # walltime on processor 1 : 0.51266003 
+
+ # of trials = 100000000 , estimate of pi is 3.141382160 
+
+ # walltime on master processor : 0.51305103 
+
+ # walltime on processor 2 : 0.51304293 
+
+ # walltime on processor 3 : 0.51305079 
+
+real	0m2.043s
+user	0m6.628s
+sys	0m0.176s
+
+ # of trials = 100000000 , estimate of pi is 3.141541320 
+
+ # walltime on master processor : 0.27128315 
+
+ # walltime on processor 1 : 0.27122712 
+
+ # walltime on processor 2 : 0.27125406 
+
+ # walltime on processor 3 : 0.27114916 
+
+ # walltime on processor 4 : 0.27125597 
+
+ # walltime on processor 5 : 0.27117896 
+
+ # walltime on processor 6 : 0.27117300 
+
+ # walltime on processor 7 : 0.27116895 
+
+real	0m1.887s
+user	0m11.608s
+sys	0m0.342s
+
+ # walltime on processor 5 : 0.14448094 
+
+ # walltime on processor 6 : 0.14447904 
+
+ # walltime on processor 7 : 0.14445305 
+
+ # walltime on processor 8 : 0.14440107 
+
+ # walltime on processor 9 : 0.14442396 
+
+ # walltime on processor 10 : 0.14440393 
+
+ # walltime on processor 11 : 0.14432597 
+
+ # walltime on processor 1 : 0.14449883 
+
+ # walltime on processor 2 : 0.14448404 
+
+ # walltime on processor 3 : 0.14453316 
+
+ # walltime on processor 4 : 0.14447117 
+
+ # walltime on processor 12 : 0.14840102 
+
+ # walltime on processor 13 : 0.14858294 
+
+ # walltime on processor 14 : 0.14853597 
+
+ # walltime on processor 15 : 0.14846706 
+
+ # of trials = 100000000 , estimate of pi is 3.141383000 
+
+ # walltime on master processor : 0.14891601 
+
+real	0m1.845s
+user	0m21.500s
+sys	0m0.707s
+cn04-13.25876ipath_userinit: Mismatched user minor version (12) and driver minor version (13) while context sharing. Ensure that driver and library are from the same release.
+cn04-13.25877ipath_userinit: Mismatched user minor version (12) and driver minor version (13) while context sharing. Ensure that driver and library are from the same release.
+cn04-13.25878ipath_userinit: Mismatched user minor version (12) and driver minor version (13) while context sharing. Ensure that driver and library are from the same release.
+cn04-13.25879ipath_userinit: Mismatched user minor version (12) and driver minor version (13) while context sharing. Ensure that driver and library are from the same release.
+cn04-13.25900ipath_userinit: Mismatched user minor version (12) and driver minor version (13) while context sharing. Ensure that driver and library are from the same release.
+cn04-13.25899ipath_userinit: Mismatched user minor version (12) and driver minor version (13) while context sharing. Ensure that driver and library are from the same release.
+cn04-13.25902ipath_userinit: Mismatched user minor version (12) and driver minor version (13) while context sharing. Ensure that driver and library are from the same release.
+cn04-13.25904ipath_userinit: Mismatched user minor version (12) and driver minor version (13) while context sharing. Ensure that driver and library are from the same release.
+
+ # walltime on processor 1 : 0.11564088 
+
+ # walltime on processor 2 : 0.11499500 
+
+ # walltime on processor 3 : 0.11585999 
+
+ # walltime on processor 10 : 0.11618996 
+
+ # walltime on processor 4 : 0.11533499 
+
+ # walltime on processor 5 : 0.11633897 
+
+ # walltime on processor 6 : 0.11630297 
+
+ # walltime on processor 7 : 0.11628914 
+
+ # walltime on processor 8 : 0.11622405 
+
+ # walltime on processor 9 : 0.11689186 
+
+ # walltime on processor 11 : 0.11548400 
+
+ # walltime on processor 12 : 0.11623287 
+
+ # walltime on processor 13 : 0.11618090 
+
+ # walltime on processor 14 : 0.11614585 
+
+ # walltime on processor 15 : 0.11623716 
+
+ # walltime on processor 17 : 0.11588717 
+
+ # walltime on processor 16 : 0.11613202 
+
+ # walltime on processor 18 : 0.11611009 
+
+ # of trials = 100000000 , estimate of pi is 3.141417400 
+
+ # walltime on master processor : 0.11698103 
+
+ # walltime on processor 19 : 0.11561489 
+
+real	0m1.965s
+user	0m26.595s
+sys	0m0.980s
+

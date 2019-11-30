@@ -1,0 +1,248 @@
+ # of trials = 1000000 , estimate of pi is 3.141724000 
+
+ # walltime on master processor : 0.01990104 
+1.14user 0.03system 0:01.50elapsed 78%CPU (0avgtext+0avgdata 103136maxresident)k
+0inputs+0outputs (0major+5698minor)pagefaults 0swaps
+
+real	0m1.574s
+user	0m1.162s
+sys	0m0.066s
+
+ # of trials = 1000000 , estimate of pi is 3.141248000 
+
+ # walltime on master processor : 0.01076198 
+
+ # walltime on processor 1 : 0.01075506 
+1.15user 0.02system 0:01.49elapsed 78%CPU (0avgtext+0avgdata 111536maxresident)k
+0inputs+0outputs (0major+5712minor)pagefaults 0swaps
+1.13user 0.04system 0:01.50elapsed 78%CPU (0avgtext+0avgdata 103344maxresident)k
+0inputs+0outputs (0major+5711minor)pagefaults 0swaps
+
+real	0m1.573s
+user	0m2.308s
+sys	0m0.104s
+
+ # walltime on processor 2 : 0.00524616 
+
+ # walltime on processor 1 : 0.00522590 
+
+ # walltime on processor 3 : 0.00544691 
+
+ # of trials = 1000000 , estimate of pi is 3.142848000 
+
+ # walltime on master processor : 0.00544620 
+1.13user 0.03system 0:01.50elapsed 77%CPU (0avgtext+0avgdata 103488maxresident)k
+0inputs+0outputs (0major+5720minor)pagefaults 0swaps
+1.14user 0.03system 0:01.51elapsed 77%CPU (0avgtext+0avgdata 103504maxresident)k
+0inputs+0outputs (0major+5721minor)pagefaults 0swaps
+1.14user 0.02system 0:01.51elapsed 77%CPU (0avgtext+0avgdata 103504maxresident)k
+0inputs+0outputs (0major+5721minor)pagefaults 0swaps
+1.14user 0.03system 0:01.51elapsed 77%CPU (0avgtext+0avgdata 103504maxresident)k
+0inputs+0outputs (0major+5721minor)pagefaults 0swaps
+
+real	0m1.593s
+user	0m4.593s
+sys	0m0.176s
+
+ # walltime on processor 3 : 0.00280786 
+
+ # walltime on processor 1 : 0.00287199 
+
+ # walltime on processor 2 : 0.00290608 
+
+ # walltime on processor 4 : 0.00299191 
+
+ # of trials = 1000000 , estimate of pi is 3.139444000 
+
+ # walltime on master processor : 0.00333095 
+
+ # walltime on processor 5 : 0.00277710 
+
+ # walltime on processor 6 : 0.00331998 
+
+ # walltime on processor 7 : 0.00304604 
+1.16user 0.05system 0:01.53elapsed 78%CPU (0avgtext+0avgdata 103792maxresident)k
+0inputs+0outputs (0major+5739minor)pagefaults 0swaps
+1.21user 0.03system 0:01.54elapsed 80%CPU (0avgtext+0avgdata 103808maxresident)k
+0inputs+0outputs (0major+5740minor)pagefaults 0swaps
+1.21user 0.03system 0:01.54elapsed 80%CPU (0avgtext+0avgdata 103776maxresident)k
+0inputs+0outputs (0major+5738minor)pagefaults 0swaps
+1.20user 0.03system 0:01.54elapsed 80%CPU (0avgtext+0avgdata 103776maxresident)k
+0inputs+0outputs (0major+5738minor)pagefaults 0swaps
+1.12user 0.04system 0:01.55elapsed 74%CPU (0avgtext+0avgdata 103808maxresident)k
+0inputs+0outputs (0major+5740minor)pagefaults 0swaps
+1.14user 0.03system 0:01.56elapsed 75%CPU (0avgtext+0avgdata 103792maxresident)k
+0inputs+0outputs (0major+5739minor)pagefaults 0swaps
+1.17user 0.02system 0:01.57elapsed 76%CPU (0avgtext+0avgdata 103808maxresident)k
+0inputs+0outputs (0major+5740minor)pagefaults 0swaps
+1.13user 0.04system 0:01.57elapsed 75%CPU (0avgtext+0avgdata 103776maxresident)k
+0inputs+0outputs (0major+5738minor)pagefaults 0swaps
+
+real	0m1.662s
+user	0m9.406s
+sys	0m0.379s
+
+ # walltime on processor 1 : 0.00159287 
+
+ # walltime on processor 2 : 0.00182700 
+
+ # walltime on processor 3 : 0.00174379 
+
+ # walltime on processor 4 : 0.00149393 
+
+ # walltime on processor 5 : 0.00195789 
+
+ # walltime on processor 6 : 0.00267220 
+
+ # walltime on processor 7 : 0.00299907 
+
+ # walltime on processor 8 : 0.00267911 
+
+ # walltime on processor 9 : 0.00271702 
+
+ # of trials = 1000000 , estimate of pi is 3.142072000 
+
+ # walltime on master processor : 0.00339699 
+
+ # walltime on processor 10 : 0.00149584 
+
+ # walltime on processor 11 : 0.00179815 
+
+ # walltime on processor 12 : 0.00161600 
+
+ # walltime on processor 13 : 0.00271106 
+
+ # walltime on processor 14 : 0.00189900 
+
+ # walltime on processor 15 : 0.00152397 
+1.26user 0.03system 0:01.65elapsed 78%CPU (0avgtext+0avgdata 104368maxresident)k
+0inputs+0outputs (0major+5775minor)pagefaults 0swaps
+1.27user 0.03system 0:01.66elapsed 79%CPU (0avgtext+0avgdata 104368maxresident)k
+0inputs+0outputs (0major+5775minor)pagefaults 0swaps
+1.27user 0.04system 0:01.67elapsed 78%CPU (0avgtext+0avgdata 104512maxresident)k
+0inputs+0outputs (0major+5784minor)pagefaults 0swaps
+1.18user 0.03system 0:01.63elapsed 74%CPU (0avgtext+0avgdata 104384maxresident)k
+0inputs+0outputs (0major+5776minor)pagefaults 0swaps
+1.22user 0.03system 0:01.64elapsed 76%CPU (0avgtext+0avgdata 104368maxresident)k
+0inputs+0outputs (0major+5775minor)pagefaults 0swaps
+1.30user 0.02system 0:01.67elapsed 79%CPU (0avgtext+0avgdata 104368maxresident)k
+0inputs+0outputs (0major+5775minor)pagefaults 0swaps
+1.27user 0.04system 0:01.66elapsed 79%CPU (0avgtext+0avgdata 104384maxresident)k
+0inputs+0outputs (0major+5776minor)pagefaults 0swaps
+1.28user 0.04system 0:01.67elapsed 79%CPU (0avgtext+0avgdata 104352maxresident)k
+0inputs+0outputs (0major+5774minor)pagefaults 0swaps
+1.25user 0.05system 0:01.65elapsed 78%CPU (0avgtext+0avgdata 104368maxresident)k
+0inputs+0outputs (0major+5775minor)pagefaults 0swaps
+1.19user 0.05system 0:01.65elapsed 75%CPU (0avgtext+0avgdata 104384maxresident)k
+0inputs+0outputs (0major+5776minor)pagefaults 0swaps
+1.28user 0.04system 0:01.69elapsed 78%CPU (0avgtext+0avgdata 104352maxresident)k
+0inputs+0outputs (0major+5774minor)pagefaults 0swaps
+1.16user 0.03system 0:01.66elapsed 72%CPU (0avgtext+0avgdata 104352maxresident)k
+0inputs+0outputs (0major+5774minor)pagefaults 0swaps
+1.13user 0.05system 0:01.67elapsed 71%CPU (0avgtext+0avgdata 104352maxresident)k
+0inputs+0outputs (0major+5774minor)pagefaults 0swaps
+1.13user 0.04system 0:01.65elapsed 70%CPU (0avgtext+0avgdata 104352maxresident)k
+0inputs+0outputs (0major+5774minor)pagefaults 0swaps
+1.14user 0.03system 0:01.66elapsed 71%CPU (0avgtext+0avgdata 104368maxresident)k
+0inputs+0outputs (0major+5775minor)pagefaults 0swaps
+1.15user 0.04system 0:01.66elapsed 72%CPU (0avgtext+0avgdata 104384maxresident)k
+0inputs+0outputs (0major+5776minor)pagefaults 0swaps
+
+real	0m1.798s
+user	0m19.640s
+sys	0m0.772s
+cn08-26.1989ipath_userinit: Mismatched user minor version (12) and driver minor version (13) while context sharing. Ensure that driver and library are from the same release.
+cn08-26.1991ipath_userinit: Mismatched user minor version (12) and driver minor version (13) while context sharing. Ensure that driver and library are from the same release.
+cn08-26.1996ipath_userinit: Mismatched user minor version (12) and driver minor version (13) while context sharing. Ensure that driver and library are from the same release.
+cn08-26.1993ipath_userinit: Mismatched user minor version (12) and driver minor version (13) while context sharing. Ensure that driver and library are from the same release.
+cn08-26.2030ipath_userinit: Mismatched user minor version (12) and driver minor version (13) while context sharing. Ensure that driver and library are from the same release.
+cn08-26.2032ipath_userinit: Mismatched user minor version (12) and driver minor version (13) while context sharing. Ensure that driver and library are from the same release.
+cn08-26.2034ipath_userinit: Mismatched user minor version (12) and driver minor version (13) while context sharing. Ensure that driver and library are from the same release.
+cn08-26.2040ipath_userinit: Mismatched user minor version (12) and driver minor version (13) while context sharing. Ensure that driver and library are from the same release.
+
+ # walltime on processor 1 : 0.00140095 
+
+ # walltime on processor 3 : 0.00250602 
+
+ # walltime on processor 4 : 0.00243115 
+
+ # walltime on processor 2 : 0.00120592 
+
+ # walltime on processor 5 : 0.00121498 
+
+ # walltime on processor 6 : 0.00255609 
+
+ # walltime on processor 7 : 0.00146008 
+
+ # walltime on processor 8 : 0.00231600 
+
+ # walltime on processor 9 : 0.00125408 
+
+ # walltime on processor 10 : 0.00125003 
+
+ # walltime on processor 11 : 0.00138998 
+
+ # walltime on processor 12 : 0.00217199 
+
+ # walltime on processor 13 : 0.00136614 
+
+ # walltime on processor 14 : 0.00129604 
+
+ # of trials = 1000000 , estimate of pi is 3.141232000 
+
+ # walltime on master processor : 0.00313091 
+
+ # walltime on processor 19 : 0.00184107 
+
+ # walltime on processor 15 : 0.00129795 
+
+ # walltime on processor 16 : 0.00204897 
+
+ # walltime on processor 17 : 0.00194478 
+
+ # walltime on processor 18 : 0.00140882 
+1.20user 0.04system 0:01.69elapsed 73%CPU (0avgtext+0avgdata 104656maxresident)k
+0inputs+0outputs (0major+5793minor)pagefaults 0swaps
+1.25user 0.04system 0:01.73elapsed 74%CPU (0avgtext+0avgdata 141696maxresident)k
+0inputs+0outputs (0major+8108minor)pagefaults 0swaps
+1.17user 0.04system 0:01.67elapsed 73%CPU (0avgtext+0avgdata 104656maxresident)k
+0inputs+0outputs (0major+5793minor)pagefaults 0swaps
+1.26user 0.04system 0:01.73elapsed 75%CPU (0avgtext+0avgdata 141680maxresident)k
+0inputs+0outputs (0major+8107minor)pagefaults 0swaps
+1.17user 0.04system 0:01.67elapsed 73%CPU (0avgtext+0avgdata 104640maxresident)k
+0inputs+0outputs (0major+5792minor)pagefaults 0swaps
+1.22user 0.04system 0:01.70elapsed 74%CPU (0avgtext+0avgdata 104656maxresident)k
+0inputs+0outputs (0major+5793minor)pagefaults 0swaps
+1.24user 0.05system 0:01.72elapsed 75%CPU (0avgtext+0avgdata 104672maxresident)k
+0inputs+0outputs (0major+5794minor)pagefaults 0swaps
+1.27user 0.04system 0:01.73elapsed 75%CPU (0avgtext+0avgdata 141696maxresident)k
+0inputs+0outputs (0major+8108minor)pagefaults 0swaps
+1.23user 0.05system 0:01.71elapsed 74%CPU (0avgtext+0avgdata 104688maxresident)k
+0inputs+0outputs (0major+5795minor)pagefaults 0swaps
+1.23user 0.05system 0:01.71elapsed 75%CPU (0avgtext+0avgdata 104656maxresident)k
+0inputs+0outputs (0major+5793minor)pagefaults 0swaps
+1.20user 0.05system 0:01.70elapsed 74%CPU (0avgtext+0avgdata 104656maxresident)k
+0inputs+0outputs (0major+5793minor)pagefaults 0swaps
+1.23user 0.04system 0:01.71elapsed 74%CPU (0avgtext+0avgdata 104640maxresident)k
+0inputs+0outputs (0major+5792minor)pagefaults 0swaps
+1.26user 0.04system 0:01.73elapsed 75%CPU (0avgtext+0avgdata 141696maxresident)1.18user 0.05syk
+0inputs+0outputs (0major+8108minor)pagefaults 0swaps
+stem 0:01.69elapsed 73%CPU (0avgtext+0avgdata 104656maxresident)k
+0inputs+0outputs (0major+5793minor)pagefaults 0swaps
+1.18user 0.05system 0:01.69elapsed 73%CPU (0avgtext+0avgdata 104672maxresident)k
+0inputs+0outputs (0major+5794minor)pagefaults 0swaps
+1.15user 0.03system 0:01.70elapsed 69%CPU (0avgtext+0avgdata 141696maxresident)k
+0inputs+0outputs (0major+8108minor)pagefaults 0swaps
+1.14user 0.03system 0:01.69elapsed 69%CPU (0avgtext+0avgdata 141680maxresident)k
+0inputs+0outputs (0major+8108minor)pagefaults 0swaps
+1.12user 0.04system 0:01.68elapsed 69%CPU (0avgtext+0avgdata 141696maxresident1.13user 0.04system 0:01.69elapsed 69%CPU (0avgtext+0)k
+0inputs+0outputs (0major+8108minor)pagefaults 0swaps
+avgdata 141696maxresident)k
+0inputs+0outputs (0major+8108minor)pagefaults 0swaps
+1.16user 0.03system 0:01.71elapsed 70%CPU (0avgtext+0avgdata 104656maxresident)k
+0inputs+0outputs (0major+5793minor)pagefaults 0swaps
+
+real	0m1.853s
+user	0m24.162s
+sys	0m1.061s
+

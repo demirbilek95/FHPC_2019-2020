@@ -1,0 +1,134 @@
+ # of trials = 10000000 , estimate of pi is 3.141586400 
+
+ # walltime on master processor : 0.19873500 
+1.34user 0.05system 0:01.69elapsed 82%CPU (0avgtext+0avgdata 103136maxresident)k
+0inputs+8outputs (0major+8952minor)pagefaults 0swaps
+
+ # of trials = 20000000 , estimate of pi is 3.141411800 
+
+ # walltime on master processor : 0.20475984 
+
+ # walltime on processor 1 : 0.20475388 
+2.70user 0.09system 0:01.71elapsed 162%CPU (0avgtext+0avgdata 103376maxresident)k
+0inputs+8outputs (0major+14899minor)pagefaults 0swaps
+
+ # walltime on processor 2 : 0.20504093 
+
+ # walltime on processor 3 : 0.20504093 
+
+ # of trials = 40000000 , estimate of pi is 3.141628100 
+
+ # walltime on master processor : 0.20503497 
+
+ # walltime on processor 1 : 0.20501089 
+5.39user 0.17system 0:01.71elapsed 324%CPU (0avgtext+0avgdata 103536maxresident)k
+0inputs+8outputs (0major+26788minor)pagefaults 0swaps
+
+ # walltime on processor 1 : 0.21732616 
+
+ # walltime on processor 2 : 0.21746397 
+
+ # walltime on processor 3 : 0.21745682 
+
+ # walltime on processor 4 : 0.21735501 
+
+ # walltime on processor 5 : 0.21748805 
+
+ # walltime on processor 6 : 0.21730304 
+
+ # walltime on processor 7 : 0.21719408 
+
+ # of trials = 80000000 , estimate of pi is 3.141569450 
+
+ # walltime on master processor : 0.21747184 
+11.08user 0.34system 0:01.82elapsed 625%CPU (0avgtext+0avgdata 103808maxresident)k
+0inputs+8outputs (0major+50672minor)pagefaults 0swaps
+
+ # walltime on processor 1 : 0.23060989 
+
+ # walltime on processor 2 : 0.23065495 
+
+ # walltime on processor 3 : 0.23064280 
+
+ # walltime on processor 4 : 0.23067689 
+
+ # walltime on processor 5 : 0.23066092 
+
+ # walltime on processor 6 : 0.23065615 
+
+ # walltime on processor 7 : 0.23068023 
+
+ # walltime on processor 8 : 0.23066592 
+
+ # walltime on processor 9 : 0.23066115 
+
+ # walltime on processor 10 : 0.23063707 
+
+ # walltime on processor 11 : 0.23056984 
+
+ # walltime on processor 12 : 0.23070383 
+
+ # walltime on processor 13 : 0.23052120 
+
+ # of trials = 160000000 , estimate of pi is 3.141499675 
+
+ # walltime on master processor : 0.23106313 
+
+ # walltime on processor 14 : 0.23065615 
+
+ # walltime on processor 15 : 0.23097396 
+23.00user 0.70system 0:01.99elapsed 1188%CPU (0avgtext+0avgdata 104400maxresident)k
+0inputs+8outputs (0major+98983minor)pagefaults 0swaps
+cn04-35.26463ipath_userinit: Mismatched user minor version (12) and driver minor version (13) while context sharing. Ensure that driver and library are from the same release.
+cn04-35.26462ipath_userinit: Mismatched user minor version (12) and driver minor version (13) while context sharing. Ensure that driver and library are from the same release.
+cn04-35.26464ipath_userinit: Mismatched user minor version (12) and driver minor version (13) while context sharing. Ensure that driver and library are from the same release.
+cn04-35.26465ipath_userinit: Mismatched user minor version (12) and driver minor version (13) while context sharing. Ensure that driver and library are from the same release.
+cn04-35.26482ipath_userinit: Mismatched user minor version (12) and driver minor version (13) while context sharing. Ensure that driver and library are from the same release.
+cn04-35.26483ipath_userinit: Mismatched user minor version (12) and driver minor version (13) while context sharing. Ensure that driver and library are from the same release.
+cn04-35.26485ipath_userinit: Mismatched user minor version (12) and driver minor version (13) while context sharing. Ensure that driver and library are from the same release.
+cn04-35.26486ipath_userinit: Mismatched user minor version (12) and driver minor version (13) while context sharing. Ensure that driver and library are from the same release.
+
+ # walltime on processor 4 : 0.23060107 
+
+ # walltime on processor 5 : 0.23065090 
+
+ # walltime on processor 6 : 0.23032284 
+
+ # walltime on processor 3 : 0.23031187 
+
+ # walltime on processor 1 : 0.23072600 
+
+ # walltime on processor 2 : 0.23196697 
+
+ # walltime on processor 7 : 0.23063803 
+
+ # walltime on processor 8 : 0.23090601 
+
+ # walltime on processor 9 : 0.23082495 
+
+ # walltime on processor 10 : 0.23064208 
+
+ # walltime on processor 11 : 0.23062587 
+
+ # walltime on processor 12 : 0.23081398 
+
+ # walltime on processor 13 : 0.23066497 
+
+ # walltime on processor 14 : 0.23164701 
+
+ # of trials = 200000000 , estimate of pi is 3.141516420 
+
+ # walltime on master processor : 0.23387790 
+
+ # walltime on processor 19 : 0.23223305 
+
+ # walltime on processor 15 : 0.23211479 
+
+ # walltime on processor 16 : 0.23307204 
+
+ # walltime on processor 17 : 0.23302913 
+
+ # walltime on processor 18 : 0.23290205 
+28.66user 0.93system 0:01.99elapsed 1485%CPU (0avgtext+0avgdata 141712maxresident)k
+0inputs+8outputs (0major+141803minor)pagefaults 0swaps
+
