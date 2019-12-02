@@ -1,0 +1,43 @@
+Sum is 5e+17, process took 2.52082 of wall-clock time
+
+<0> sec of avg thread-time
+<1e+11> sec of min thread-time
+4.27user 1.58system 0:05.87elapsed 99%CPU (0avgtext+0avgdata 31254320maxresident)k
+0inputs+0outputs (0major+4478minor)pagefaults 0swaps
+Sum is 5e+17, process took 1.27114 of wall-clock time
+
+<1.26649> sec of avg thread-time
+<1.26095> sec of min thread-time
+4.52user 1.39system 0:02.98elapsed 197%CPU (0avgtext+0avgdata 31254736maxresident)k
+0inputs+0outputs (0major+5015minor)pagefaults 0swaps
+Sum is 5e+17, process took 0.660504 of wall-clock time
+
+<0.655291> sec of avg thread-time
+<0.649434> sec of min thread-time
+4.68user 1.42system 0:01.55elapsed 392%CPU (0avgtext+0avgdata 31254816maxresident)k
+0inputs+0outputs (0major+4509minor)pagefaults 0swaps
+Sum is 5e+17, process took 0.352352 of wall-clock time
+
+<0.349489> sec of avg thread-time
+<0.346173> sec of min thread-time
+4.96user 1.61system 0:00.84elapsed 776%CPU (0avgtext+0avgdata 31254944maxresident)k
+0inputs+0outputs (0major+4517minor)pagefaults 0swaps
+Sum is 5e+17, process took 0.245558 of wall-clock time
+
+<0.245713> sec of avg thread-time
+<0.245711> sec of min thread-time
+5.27user 1.61system 0:00.59elapsed 1157%CPU (0avgtext+0avgdata 31255088maxresident)k
+0inputs+0outputs (0major+4526minor)pagefaults 0swaps
+Sum is 5e+17, process took 0.185956 of wall-clock time
+
+<0.186027> sec of avg thread-time
+<0.186> sec of min thread-time
+5.36user 2.35system 0:00.50elapsed 1531%CPU (0avgtext+0avgdata 31255216maxresident)k
+0inputs+0outputs (0major+4534minor)pagefaults 0swaps
+Sum is 5e+17, process took 0.153109 of wall-clock time
+
+<0.15298> sec of avg thread-time
+<0.152643> sec of min thread-time
+5.57user 3.47system 0:00.47elapsed 1900%CPU (0avgtext+0avgdata 31255360maxresident)k
+0inputs+0outputs (0major+4543minor)pagefaults 0swaps
+
