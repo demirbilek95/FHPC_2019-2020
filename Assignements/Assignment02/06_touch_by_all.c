@@ -216,7 +216,6 @@ int get_cpu_id( void )
 int read_proc__self_stat( int field, int *ret_val )
 /*
   Other interesting fields:
-
   pid      : 0
   father   : 1
   utime    : 13
@@ -224,7 +223,6 @@ int read_proc__self_stat( int field, int *ret_val )
   nthreads : 18
   rss      : 22
   cpuid    : 39
-
   read man /proc page for fully detailed infos
  */
 {

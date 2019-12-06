@@ -1,0 +1,9 @@
+lfs df -h --> shows the usage 
+
+iosrv is responsible for managing ost
+
+for peak performance calculation --> performance of each disk must be known
+
+Does the performance of flie system depend on client number ? --> No, it doesn't
+
+IF MDT is fully used --> solution is shutting down the file system and enlarging the mdt part
