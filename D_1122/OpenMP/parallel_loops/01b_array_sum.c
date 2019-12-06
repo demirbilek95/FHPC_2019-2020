@@ -30,92 +30,81 @@
 #     define _XOPEN_SOURCE 700
 #  endif
 #endif
-#define _GNU_SOURCE
-#ifndef _OPENMP
-#error "openmp support is required to compile this code"
+#if !defined(_OPENMP)
+#error "OpenMP support needed for this code"
 #endif
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
-#include <unistd.h>
-#include <sys/syscall.h>
 #include <omp.h>
+
+
+#define N_default 100
 
 
 int main( int argc, char **argv )
 {
-  int i;
-  int nthreads=1; 
-  register unsigned long long base_of_stack asm("rbp");
-  register unsigned long long top_of_stack asm("rsp");
 
-  printf( "\nmain thread (pid: %d, tid: %ld) data:\n"
-	  "base of stack is: %p\n"
-	  "top of stack is : %p\n"
-	  "&i is           : %p\n"
-	  "   rbp - &i     : %td\n"
-	  "   &i - rsp     : %td\n"
-	  "\n\n",
-	  getpid(), syscall(SYS_gettid),
-	  (void*)base_of_stack,
-	  (void*)top_of_stack,
-	  &i,
-	  (void*)base_of_stack - (void*)&i,
-	  (void*)&i - (void*)top_of_stack );
+  int     N        = N_default;
+  int     nthreads = 1;  
+  double *array;
 
+  /*  -----------------------------------------------------------------------------
+   *   initialize 
+   *  -----------------------------------------------------------------------------
+   */
+
+
+  // just give notice of what will happen and get the number of threads used
 #pragma omp parallel
 #pragma omp master
   nthreads = omp_get_num_threads();
 
-  printf("using %d threads\n", nthreads);
-  size_t stack_base_addresses[ nthreads ];
-  size_t stack_top_addresses[ nthreads ];
-  
-  // also prove who is the private i for each thread
-#pragma omp parallel private(i)
-  {
-    int me = omp_get_thread_num();
-    unsigned long long my_stackbase;
-    unsigned long long my_stacktop;
-    __asm__("mov %%rbp,%0" : "=mr" (my_stackbase));
-    __asm__("mov %%rsp,%0" : "=mr" (my_stacktop));
+  printf("omp summation with %d threads\n", nthreads );
 
-    stack_base_addresses[me] = my_stackbase;
-    stack_top_addresses[me] = my_stacktop;
-    
-    printf( "thread (tid: %ld) nr %d:\n"
-	    "\tmy base of stack is %p ( %td from main\'s stack )\n"
-	    "\tmy i address is %p\n"
-	    "\t\t%td from my stackbase and %td from main\'s\n",	    
-	    syscall(SYS_gettid), me,
-	    (void*)my_stackbase, (void*)base_of_stack - (void*)my_stackbase,
-	    &i, (void*)&i - (void*)my_stackbase, (void*)&i - (void*)base_of_stack);	    
-  }
-
-  printf( "\n" );
-
-  for( i = 0; i < nthreads; i++ )
+  // allocate memory
+  if ( (array = (double*)calloc( N, sizeof(double) )) == NULL )
     {
-      printf("thread %d: bp @ %p, tp @ %p: %lld B", i,
-	     (void*)stack_base_addresses[i],
-	     (void*)stack_top_addresses[i],
-	     (long long int)(stack_base_addresses[i]-stack_top_addresses[i]));
-      if (i > 0 )
-	printf("\t --> %lld B from top of thread %d",
-	       (long long int)(stack_base_addresses[i]-stack_top_addresses[i-1]), i-1);
-      printf("\n");
+      printf("I'm sorry, there is not enough memory to host %lu bytes\n", N * sizeof(double) );
+      return 1;
     }
+  // initialize the array
+  for ( int ii = 0; ii < N; ii++ )
+    array[ii] = (double)ii;
 
-  printf("\n");
 
-  char *omp_stacksize = NULL;
+  /*  -----------------------------------------------------------------------------
+   *   calculate
+   *  -----------------------------------------------------------------------------
+   */
 
-  if ( (omp_stacksize = getenv("OMP_STACKSIZE")) == NULL )
-    printf("you did not define OMP_STACKSIZE: try to set it and check what happens to the threads' stack pointers\n");
-  else
-    printf("you defined OMP_STACKSIZE as %s: try to change that value and check what happens to the threads' stack pointers\n",
-	   omp_stacksize);
 
-  printf("\n");
+  double S           = 0;                                   // this will store the summation
+  
+#pragma omp parallel 
+  {
+    int me      = omp_get_thread_num();
+    int i, first = 1;
+    
+    printf("thread %d : &i is %p\n", me, &i);
+#pragma omp for reduction(+:S)                              
+    for ( i = 0; i < N; i++ )
+      {
+	if ( first ) {
+	  printf("\tthread %d : &loopcounter is %p\n", me, &i); first = 0;}
+	S += array[i];
+      }    
+  }
+  
+
+  /*  -----------------------------------------------------------------------------
+   *   finalize
+   *  -----------------------------------------------------------------------------
+   */
+
+  printf("Sum is %g\n\n", S );
+  
+  free( array );
+  
   return 0;
 }
