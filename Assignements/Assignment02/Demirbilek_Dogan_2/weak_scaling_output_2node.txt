@@ -1,0 +1,36 @@
+ # of trials = 2000000000 , estimate of pi is 3.141587602 
+
+ # walltime : 17.890913 
+35.80user 0.00system 0:17.89elapsed 200%CPU (0avgtext+0avgdata 2992maxresident)k
+0inputs+0outputs (0major+213minor)pagefaults 0swaps
+
+ # of trials = 4000000000 , estimate of pi is 3.141600843 
+
+ # walltime : 18.486478 
+73.50user 0.00system 0:18.48elapsed 397%CPU (0avgtext+0avgdata 3056maxresident)k
+0inputs+0outputs (0major+222minor)pagefaults 0swaps
+
+ # of trials = 8000000000 , estimate of pi is 3.141600917 
+
+ # walltime : 19.545963 
+155.69user 0.00system 0:19.54elapsed 796%CPU (0avgtext+0avgdata 3200maxresident)k
+0inputs+0outputs (0major+234minor)pagefaults 0swaps
+
+ # of trials = 12000000000 , estimate of pi is 3.141614994 
+
+ # walltime : 20.610662 
+247.32user 0.00system 0:20.61elapsed 1199%CPU (0avgtext+0avgdata 3328maxresident)k
+0inputs+0outputs (0major+247minor)pagefaults 0swaps
+
+ # of trials = 16000000000 , estimate of pi is 3.141608241 
+
+ # walltime : 20.606036 
+329.73user 0.00system 0:20.60elapsed 1599%CPU (0avgtext+0avgdata 3472maxresident)k
+0inputs+0outputs (0major+262minor)pagefaults 0swaps
+
+ # of trials = 20000000000 , estimate of pi is 3.141596964 
+
+ # walltime : 22.687358 
+411.79user 0.00system 0:22.70elapsed 1813%CPU (0avgtext+0avgdata 3600maxresident)k
+0inputs+0outputs (0major+283minor)pagefaults 0swaps
+
