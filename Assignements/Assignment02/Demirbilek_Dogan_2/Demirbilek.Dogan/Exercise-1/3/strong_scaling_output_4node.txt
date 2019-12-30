@@ -1,0 +1,50 @@
+Serial approach
+
+ # of trials = 1000000000 , estimate of pi is 3.141566812 
+
+ # walltime : 19.669295 
+19.68user 0.00system 0:19.68elapsed 99%CPU (0avgtext+0avgdata 2384maxresident)k
+0inputs+0outputs (0major+174minor)pagefaults 0swaps
+omp summation with 2 threads
+
+ # of trials = 1000000000 , estimate of pi is 3.141598884 
+
+ # walltime : 9.238652 
+18.43user 0.00system 0:09.27elapsed 198%CPU (0avgtext+0avgdata 3008maxresident)k
+920inputs+0outputs (2major+213minor)pagefaults 0swaps
+omp summation with 4 threads
+
+ # of trials = 1000000000 , estimate of pi is 3.141651228 
+
+ # walltime : 4.835930 
+19.35user 0.00system 0:04.83elapsed 400%CPU (0avgtext+0avgdata 3072maxresident)k
+0inputs+0outputs (0major+224minor)pagefaults 0swaps
+omp summation with 8 threads
+
+ # of trials = 1000000000 , estimate of pi is 3.141592644 
+
+ # walltime : 4.293819 
+19.84user 0.00system 0:04.31elapsed 460%CPU (0avgtext+0avgdata 3184maxresident)k
+0inputs+0outputs (0major+232minor)pagefaults 0swaps
+omp summation with 12 threads
+
+ # of trials = 1000000000 , estimate of pi is 3.141633852 
+
+ # walltime : 4.043787 
+19.95user 0.00system 0:04.07elapsed 489%CPU (0avgtext+0avgdata 3344maxresident)k
+0inputs+0outputs (0major+239minor)pagefaults 0swaps
+omp summation with 16 threads
+
+ # of trials = 1000000000 , estimate of pi is 3.141639924 
+
+ # walltime : 4.074507 
+20.13user 0.00system 0:04.10elapsed 490%CPU (0avgtext+0avgdata 3472maxresident)k
+0inputs+0outputs (0major+246minor)pagefaults 0swaps
+omp summation with 20 threads
+
+ # of trials = 1000000000 , estimate of pi is 3.141661000 
+
+ # walltime : 4.023816 
+20.17user 0.00system 0:04.06elapsed 495%CPU (0avgtext+0avgdata 3616maxresident)k
+0inputs+0outputs (0major+253minor)pagefaults 0swaps
+

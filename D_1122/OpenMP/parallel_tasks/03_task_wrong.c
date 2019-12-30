@@ -162,7 +162,7 @@ int main( int argc, char **argv )
 
     }
 
-    //#pragma omp taskwait
+    //#pragma omp taskwait  //--> it is barrier for tasks
     
     #pragma omp atomic update
     result += result1;
