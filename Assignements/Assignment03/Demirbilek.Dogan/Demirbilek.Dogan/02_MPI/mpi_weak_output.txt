@@ -1,0 +1,86 @@
+Running MPI Mandelbrot with 2 cores
+Using assigned parameters nx = 1024, ny = 1024, xL = -2, yL = -2, xR = 2, yR = 2, Imax = 1000
+wall clock time of processor 0 is:    51.51 seconds
+wall clock time of processor 1 is:    51.49 seconds
+114.99user 1.91system 0:54.41elapsed 214%CPU (0avgtext+0avgdata 418960maxresident)k
+0inputs+48outputs (211major+52237minor)pagefaults 0swaps
+Running MPI Mandelbrot with 4 cores
+Using assigned parameters nx = 1024, ny = 1024, xL = -2, yL = -2, xR = 2, yR = 2, Imax = 2000
+wall clock time of processor 0 is:    50.07 seconds
+wall clock time of processor 1 is:    50.07 seconds
+wall clock time of processor 2 is:    50.07 seconds
+wall clock time of processor 3 is:    50.07 seconds
+204.22user 2.77system 0:51.24elapsed 403%CPU (0avgtext+0avgdata 417056maxresident)k
+0inputs+40outputs (0major+98404minor)pagefaults 0swaps
+Running MPI Mandelbrot with 8 cores
+Using assigned parameters nx = 1024, ny = 1024, xL = -2, yL = -2, xR = 2, yR = 2, Imax = 4000
+wall clock time of processor 0 is:    51.16 seconds
+wall clock time of processor 1 is:    51.17 seconds
+wall clock time of processor 2 is:    51.16 seconds
+wall clock time of processor 3 is:    51.17 seconds
+wall clock time of processor 4 is:    51.16 seconds
+wall clock time of processor 5 is:    51.19 seconds
+wall clock time of processor 6 is:    51.19 seconds
+wall clock time of processor 7 is:    51.16 seconds
+409.40user 10.37system 0:52.45elapsed 800%CPU (0avgtext+0avgdata 422448maxresident)k
+0inputs+32outputs (0major+194118minor)pagefaults 0swaps
+Running MPI Mandelbrot with 12 cores
+Using assigned parameters nx = 1024, ny = 1024, xL = -2, yL = -2, xR = 2, yR = 2, Imax = 6000
+wall clock time of processor 0 is:    52.50 seconds
+wall clock time of processor 1 is:    52.51 seconds
+wall clock time of processor 2 is:    52.50 seconds
+wall clock time of processor 3 is:    52.49 seconds
+wall clock time of processor 4 is:    52.55 seconds
+wall clock time of processor 5 is:    52.54 seconds
+wall clock time of processor 6 is:    52.50 seconds
+wall clock time of processor 7 is:    52.54 seconds
+wall clock time of processor 8 is:    52.51 seconds
+wall clock time of processor 9 is:    52.50 seconds
+wall clock time of processor 10 is:    52.53 seconds
+wall clock time of processor 11 is:    52.52 seconds
+632.52user 12.62system 0:53.90elapsed 1196%CPU (0avgtext+0avgdata 424192maxresident)k
+0inputs+32outputs (0major+287640minor)pagefaults 0swaps
+Running MPI Mandelbrot with 16 cores
+Using assigned parameters nx = 1024, ny = 1024, xL = -2, yL = -2, xR = 2, yR = 2, Imax = 8000
+wall clock time of processor 0 is:    52.81 seconds
+wall clock time of processor 1 is:    52.82 seconds
+wall clock time of processor 2 is:    52.83 seconds
+wall clock time of processor 3 is:    52.83 seconds
+wall clock time of processor 4 is:    52.90 seconds
+wall clock time of processor 5 is:    52.80 seconds
+wall clock time of processor 6 is:    52.80 seconds
+wall clock time of processor 7 is:    52.80 seconds
+wall clock time of processor 8 is:    52.91 seconds
+wall clock time of processor 9 is:    52.83 seconds
+wall clock time of processor 10 is:    52.79 seconds
+wall clock time of processor 11 is:    52.85 seconds
+wall clock time of processor 12 is:    52.80 seconds
+wall clock time of processor 13 is:    52.91 seconds
+wall clock time of processor 14 is:    52.81 seconds
+wall clock time of processor 15 is:    52.82 seconds
+847.03user 19.23system 0:54.47elapsed 1590%CPU (0avgtext+0avgdata 420048maxresident)k
+0inputs+32outputs (0major+381041minor)pagefaults 0swaps
+Running MPI Mandelbrot with 20 cores
+Using assigned parameters nx = 1024, ny = 1024, xL = -2, yL = -2, xR = 2, yR = 2, Imax = 10000
+wall clock time of processor 0 is:    61.57 seconds
+wall clock time of processor 1 is:    61.60 seconds
+wall clock time of processor 2 is:    61.67 seconds
+wall clock time of processor 3 is:    61.60 seconds
+wall clock time of processor 4 is:    61.58 seconds
+wall clock time of processor 5 is:    61.56 seconds
+wall clock time of processor 6 is:    61.55 seconds
+wall clock time of processor 7 is:    61.62 seconds
+wall clock time of processor 8 is:    61.55 seconds
+wall clock time of processor 9 is:    61.66 seconds
+wall clock time of processor 10 is:    61.57 seconds
+wall clock time of processor 11 is:    61.71 seconds
+wall clock time of processor 12 is:    61.56 seconds
+wall clock time of processor 13 is:    61.57 seconds
+wall clock time of processor 14 is:    61.71 seconds
+wall clock time of processor 15 is:    61.55 seconds
+wall clock time of processor 16 is:    61.68 seconds
+wall clock time of processor 17 is:    61.62 seconds
+wall clock time of processor 18 is:    61.60 seconds
+wall clock time of processor 19 is:    61.53 seconds
+1118.96user 77.82system 1:03.52elapsed 1884%CPU (0avgtext+0avgdata 415024maxresident)k
+0inputs+32outputs (0major+473809minor)pagefaults 0swaps

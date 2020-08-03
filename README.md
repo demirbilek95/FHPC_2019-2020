@@ -1,10 +1,6 @@
-<<<<<<< HEAD
 # Foundations of HPC, 2019/2020
 
 ## -- DSSC -- Data Science and Scientific Computing --
-
-------
-
 
 
 Welcome to the "Foundations of HPC" course at DSSC Department of the University of Trieste.
@@ -262,7 +258,3 @@ Multicore and Many-core Programming Approaches
 by Reinders   &    Jeffers  
 Morgan Kaufmann, Print Book ISBN :9780128021187
 
-
-
-
->>>>>>> 0581f5510f4efe049e589351303cb1a207e1ba9d
