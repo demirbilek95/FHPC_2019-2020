@@ -1,0 +1,70 @@
+Using assigned parameters
+serial calculation
+Process took 82.9091 of wall-clock time
+
+<0> sec of avg thread-time
+<1e+11> sec of min thread-time
+<0> sec of max thread-time
+82.89user 0.00system 1:22.85elapsed 100%CPU (0avgtext+0avgdata 16112maxresident)k
+0inputs+2056outputs (0major+527minor)pagefaults 0swaps
+Using assigned parameters
+
+omp calculation with 2 threads
+Process took 42.1938 of wall-clock time
+
+<42.2264> sec of avg thread-time
+<42.2264> sec of min thread-time
+<42.2264> sec of max thread-time
+84.03user 0.40system 0:42.20elapsed 200%CPU (0avgtext+0avgdata 18000maxresident)k
+0inputs+2056outputs (0major+648minor)pagefaults 0swaps
+Using assigned parameters
+
+omp calculation with 4 threads
+Process took 21.6925 of wall-clock time
+
+<21.7092> sec of avg thread-time
+<21.7091> sec of min thread-time
+<21.7093> sec of max thread-time
+86.44user 0.38system 0:21.70elapsed 400%CPU (0avgtext+0avgdata 16400maxresident)k
+0inputs+2056outputs (0major+561minor)pagefaults 0swaps
+Using assigned parameters
+
+omp calculation with 8 threads
+Process took 11.5051 of wall-clock time
+
+<11.5139> sec of avg thread-time
+<11.5138> sec of min thread-time
+<11.514> sec of max thread-time
+91.72user 0.39system 0:11.51elapsed 800%CPU (0avgtext+0avgdata 19568maxresident)k
+0inputs+2056outputs (0major+789minor)pagefaults 0swaps
+Using assigned parameters
+
+omp calculation with 12 threads
+Process took 8.14383 of wall-clock time
+
+<8.14994> sec of avg thread-time
+<8.14968> sec of min thread-time
+<8.15011> sec of max thread-time
+97.35user 0.45system 0:08.15elapsed 1199%CPU (0avgtext+0avgdata 19152maxresident)k
+0inputs+2056outputs (0major+772minor)pagefaults 0swaps
+Using assigned parameters
+
+omp calculation with 16 threads
+Process took 6.10963 of wall-clock time
+
+<6.11415> sec of avg thread-time
+<6.11396> sec of min thread-time
+<6.11434> sec of max thread-time
+97.41user 0.43system 0:06.11elapsed 1599%CPU (0avgtext+0avgdata 12032maxresident)k
+0inputs+2056outputs (0major+826minor)pagefaults 0swaps
+Using assigned parameters
+
+omp calculation with 20 threads
+Process took 4.90534 of wall-clock time
+
+<4.90731> sec of avg thread-time
+<4.90656> sec of min thread-time
+<4.90756> sec of max thread-time
+97.80user 0.45system 0:04.91elapsed 1999%CPU (0avgtext+0avgdata 16704maxresident)k
+0inputs+2056outputs (0major+647minor)pagefaults 0swaps
+
